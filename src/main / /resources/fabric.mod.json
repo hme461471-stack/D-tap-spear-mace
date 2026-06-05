@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "spearmacecombo",
+  "version": "1.0.0",
+  "name": "D tap Mace Spear",
+  "description": "Auto swap to mace after spear hit",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.SpearMaceMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
